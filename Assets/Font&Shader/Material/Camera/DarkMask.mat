@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DarkMask
+  m_Shader: {fileID: 4800000, guid: 77a24373aca9187498887ad6203e9a7a, type: 3}
+  m_ValidKeywords:
+  - _KEYWORD0_REF
+  - _KEYWORD2_CAMERA
+  m_InvalidKeywords:
+  - _KEYWORD2_ALL
+  - _KEYWORD2_NONE
+  - _KEYWORD2_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMask2:
+        m_Texture: {fileID: 2800000, guid: e2f9589c5c609eb47bc7936a3a83765b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RAT:
+        m_Texture: {fileID: 2800000, guid: b19799281b8fff7438fdcbbaffec7b9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _radialblurmask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Keyword0: 0
+    - _Keyword2: 0
+    - _RAP: 0.001
+    - _radialblurlentgh: 0
+    - _radialblurpower: 0
+    m_Colors:
+    - RockVec1: {r: 1, g: 1, b: 1, a: 1}
+    - _MoveXY: {r: 0, g: 0, b: 0, a: 0}
+    - _RAS: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _RefColor: {r: 1, g: 0, b: 0.55990267, a: 0.9882353}
+  m_BuildTextureStacks: []

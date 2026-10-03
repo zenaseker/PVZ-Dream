@@ -1,0 +1,642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23caaae047e6c484dad53d8ef87c9086, type: 3}
+  m_Name: ZombieInfo
+  m_EditorClassIdentifier: 
+  ZombieInfoes:
+  - ID: 0
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: 13b54fa1be59d004a8210a78e5d511b3, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 4000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u666E\u901A\u50F5\u5C38"
+      MiniInfo: "\u6700\u666E\u901A\u7684\u50F5\u5C38"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7\u79D2\u4E00\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: "\u8FD9\u79CD\u50F5\u5C38\u9177\u7231\u8111\u5B50\uFF0C\u8D2A\u5A6A\u800C\u4E0D\u77E5\u8DB3\u3002\u8111\u5B50\u3001\u8111\u5B50\u3001\u8111\u5B50\uFF0C\u2014\u2014\u591C\u4EE5\u7EE7\u65E5\u5730\u8FFD\u6C42\u7740\u3002\u6076\u81ED\u96BE\u95FB\u7684\u8111\u5B50\uFF1F\u8150\u70C2\u7684\u8111\u5B50\uFF1F\u6211\u60F3\u8FD9\u90FD\u6CA1\u5173\u7CFB\uFF0C\u50F5\u5C38\u4E0D\u4ECB\u610F\u3002"
+      FirstShow: "\u6700\u666E\u901A\u7684\u50F5\u5C38\u3002"
+  - ID: 1
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: cb15d10ac807482478fff07e46a34f6f, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 4000
+    Value: 2
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u8DEF\u969C\u50F5\u5C38"
+      MiniInfo: "\u4ED6\u7684\u8DEF\u969C\u5934\u76D4\uFF0C\u4F7F\u4ED6\u6BD4\u666E\u901A\u50F5\u5C38\u66F4\u80FD\u627F\u53D7\u4F24\u5BB3"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+370(1\u7C7B)\r\n\u4F69\u6234\uFF1A\u8DEF\u969C(I\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7\u79D2\u4E00\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: "\u548C\u5176\u4ED6\u50F5\u5C38\u4E00\u6837\uFF0C\u8DEF\u969C\u5934\u50F5\u5C38\u76F2\u76EE\u5730\u5411\u524D\u3002\u4F46\u67D0\u4E9B\u4E8B\u7269\u5374\u4F7F\u4ED6\u505C\u4E0B\u811A\u6B65\uFF0C\u6361\u8D77\u4E00\u4E2A\u4EA4\u901A\u8DEF\u969C\uFF0C\u5E76\u56FA\u5B9E\u5728\u81EA\u5DF1\u7684\u8111\u888B\u4E0A\u3002\u662F\u7684\uFF0C\u4ED6\u5F88\u559C\u6B22\u53C2\u52A0\u805A\u4F1A\u3002"
+      FirstShow: "\u8DEF\u969C\u5934\u76D4\u66F4\u80FD\u627F\u53D7\u4F24\u5BB3"
+  - ID: 2
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: be6be7b6308da334280918543ab16dca, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 3000
+    Value: 4
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u94C1\u6876\u50F5\u5C38"
+      MiniInfo: "\u4ED6\u7684\u94C1\u6876\u5934\u76D4\uFF0C\u80FD\u6781\u5927\u7A0B\u5EA6\u7684\u627F\u53D7\u4F24\u5BB3\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+1100(I\u7C7B)\r\n\u4F69\u6234\uFF1A\u94C1\u6876(I\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7\u79D2\u4E00\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: "\u94C1\u6876\u5934\u50F5\u5C38\u7ECF\u5E38\u6234\u7740\u6C34\u6876\uFF0C\u5728\u51B7\u6F20\u7684\u4E16\u754C\u91CC\u663E\u5F97\u72EC\u4E00\u65E0\u4E8C\u3002\u4F46\u4E8B\u5B9E\u4E0A\uFF0C\u4ED6\u53EA\u662F\u5FD8\u8BB0\u4E86\u90A3\u94C1\u6876\u8FD8\u5728\u4ED6\u5934\u4E0A\u800C\u5DF2\u3002"
+      FirstShow: "\u94C1\u6876\u5934\u76D4\u80FD\u6781\u5927\u7A0B\u5EA6\u7684\u627F\u53D7\u4F24\u5BB3"
+  - ID: 3
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 9068081489609242015, guid: ae3c900efae12a245bcc362e8bf56435, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 2000
+    Value: 2
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6491\u6746\u50F5\u5C38"
+      MiniInfo: "\u6491\u6746\u50F5\u5C38\u8FD0\u7528\u6807\u6746\u8DC3\u8FC7\u969C\u788D\u7269\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u8DF3\u8DC3\u524D\u7EA62.5s/\u683C,\u8DF3\u8DC3\u540E\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u8DC3\u8FC7\u4ED6\u6240\u78B0\u5230\u7684\u7B2C\u4E00\u682A\u690D\u7269"
+      Description: "\u4E00\u4E9B\u50F5\u5C38\u6E34\u671B\u8D70\u5F97\u66F4\u8FDC\u3001\u5F97\u5230\u66F4\u591A\uFF0C\u8FD9\u4E5F\u4FC3\u4F7F\u4ED6\u4EEC\u7531\u666E\u901A\u6210\u4E3A\u975E\u51E1\u3002\u90A3\u5C31\u662F\u6491\u6746\u50F5\u5C38\u3002"
+      FirstShow: "\u8DF3\u8FC7\u4F60\u7684\u690D\u7269\u3002"
+  - ID: 4
+    Cost: 0
+    HP: 270
+    Damage: 100
+    UseCoolTime: 7.5
+    Prefab: {fileID: 3909074380205061189, guid: 9362ab1e7440a68438b700c5278fe576, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 2
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u8BFB\u62A5\u50F5\u5C38"
+      MiniInfo: "\u4ED6\u7684\u62A5\u7EB8\u53EA\u80FD\u63D0\u4F9B\u6709\u9650\u7684\u9632\u5FA1\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+150(I\u7C7B)\r\n\u4F69\u6234\uFF1A\u62A5\u7EB8(II\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C\uFF0C\u5931\u53BB\u62A5\u7EB8\u540E1.8s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u5931\u53BB\u62A5\u7EB8\u540E\u901F\u5EA6\u63D0\u5347"
+      Description: "\u8BFB\u62A5\u50F5\u5C38\uFF0C\u4ED6\u6B63\u75F4\u8FF7\u4E8E\u5B8C\u6210\u4ED6\u7684\u6570\u72EC\u96BE\u9898\u3002\u96BE\u602A\u4ED6\u8FD9\u4E48\u53CD\u5E38\u3002"
+      FirstShow: "\u5931\u53BB\u62A5\u7EB8\u540E\u751F\u6C14\u3002"
+  - ID: 5
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 230558028691966488, guid: 2c159d4caea857347b23ba0e3b203ccf, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 3500
+    Value: 4
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u94C1\u6805\u95E8\u50F5\u5C38"
+      MiniInfo: "\u4ED6\u7684\u94C1\u6805\u95E8\u662F\u6709\u6548\u7684\u76FE\u724C\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+1100(II\u7C7B)\r\n\u4F69\u6234\uFF1A\u94C1\u6805\u95E8(II\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--\r\n\u94C1\u6805\u95E8\uFF1A\u4E0D\u4F1A\u963B\u6321\u5B62\u5B50\u5B50\u5F39"
+      Description: "\u94C1\u6805\u95E8\u50F5\u5C38\u4E0A\u6B21\u62DC\u8BBF\u8FC7\u7684\u623F\u4E3B\u9632\u5B88\u5E76\u4E0D\u4E13\u4E1A\uFF0C\u5728\u5403\u6389\u90A3\u623F\u4E3B\u7684\u8111\u5B50\u540E\u62FF\u8D70\u4E86\u4ED6\u5BB6\u7684\u94C1\u6805\u95E8\u3002"
+      FirstShow: "\u94C1\u6805\u95E8\u63D0\u4F9B\u6709\u6548\u7684\u9632\u5FA1\u3002"
+  - ID: 6
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 1408940090808090640, guid: da9071dc70cebb54989a8fc21dadbd62, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 2000
+    Value: 7
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6A44\u6984\u7403\u50F5\u5C38"
+      MiniInfo: "\u6A44\u6984\u7403\u50F5\u5C38\u7684\u8868\u6F14\u79C0\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+1400(I\u7C7B)\r\n\u4F69\u6234\uFF1A\u6A44\u6984\u7403\u5E3D(I\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA62.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: "\u5728\u7403\u573A\u4E0A\uFF0C\u6A44\u6984\u7403\u50F5\u5C38\u8868\u73B0\u51FA120%\u7684\u6FC0\u60C5\uFF0C\u4ED6\u8FDB\u653B\u9632\u5B88\u6837\u6837\u5728\u884C\u3002\u867D\u7136\u4ED6\u5B8C\u5168\u4E0D\u77E5\u9053\u6A44\u6984\u7403\u662F\u4EC0\u4E48\u3002"
+      FirstShow: "\u9AD8\u9632\u5FA1\uFF0C\u9AD8\u901F\u5EA6\u3002"
+  - ID: 7
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: cd1a4044522424640ae038d3dc5775b9, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u821E\u738B\u50F5\u5C38"
+      MiniInfo: "\u821E\u738B\u50F5\u5C38\u548C\u4EBA\u7C7B(\u5728\u4E16\u6216\u8005\u6B7B\u53BB\u7684)\u5982\u6709\u96F7\u540C\uFF0C\u7EAF\u5C5E\u5DE7\u5408\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u51FA\u573A\u6ED1\u6B65\u7EA61.2s/\u683C,\u53EC\u5524\u540E\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u53EC\u5524\u4F34\u821E\u50F5\u5C38"
+      Description: "\u821E\u738B\u50F5\u5C38\u7684\u6700\u65B0\u5531\u7247\u201C\u54C7\u8111\u4E73\u963F\u535C\u963F\u535C\u201D\u5728\u50F5\u5C38\u754C\u7684\u4EBA\u6C14\u6B63\u6025\u901F\u98D9\u5347\u3002"
+      FirstShow: "\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u3002"
+  - ID: 8
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: bb81c5b00a0ceec4d87750d483001180, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 0
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 1
+    zombieDescribe:
+      Name: "\u4F34\u821E\u50F5\u5C38"
+      MiniInfo: "\u5F53\u821E\u738B\u50F5\u5C38\u6447\u6446\u65F6\uFF0C4\u4E2A\u8FD9\u79CD\u50F5\u5C38\u7C89\u58A8\u767B\u573A\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: "\u4F34\u821E\u50F5\u5C38\u66FE\u5728\u4F4D\u4E8E\u50F5\u5C38\u7EBD\u7EA6\u57CE\u7684\u201C\u5480\u5229\u7259\u201D\u8868\u6F14\u827A\u672F\u5B66\u9662\u6DF1\u9020\u8FC7\u516D\u5E74\u7684\u821E\u6280\uFF0C\u8FD8\u88AB\u7279\u9080\u53C2\u52A0\u8FC7\u201C\u821E\u6797\u5927\u4F1A\u201D\u3002"
+      FirstShow: "\u8DDF\u968F\u821E\u738B\u50F5\u5C38\u79FB\u52A8\u3002"
+  - ID: 100
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 7309641761475872959, guid: f0530b8e5689d824a9f1d8a8ae75f61d, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 0
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 1
+    zombieDescribe:
+      Name: "\u65D7\u5E1C\u50F5\u5C38"
+      MiniInfo: "\u65D7\u5E1C\u50F5\u5C38\u6807\u5FD7\u7740\u5373\u5C06\u6765\u88AD\u7684\u4E00\u5927\u7FA4\u50F5\u5C38\u6D77\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u539F\u7248\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+300(II\u7C7B)\r\n\u4F69\u6234\uFF1A\u65D7\u5E1C(II\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA63.7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--\r\n\u65D7\u5E1C\uFF1A\u4EE4\u534A\u5F841.5\u683C\u5185\u7684\u50F5\u5C38\u901F\u5EA6\u63D0\u534720%"
+      Description: "\u65E0\u9700\u7F6E\u7591\uFF1B\u65D7\u5E1C\u50F5\u5C38\u559C\u7231\u8111\u5B50\uFF0C\u4F46\u5728\u79C1\u4E0B\u91CC\u4ED6\u4E5F\u8FF7\u604B\u65D7\u5E1C\u3002\u6216\u8BB8\u662F\u56E0\u4E3A\u65D7\u5E1C\u4E0A\u4E5F\u753B\u6709\u8111\u5B50\u5427\uFF0C\u8FD9\u5F88\u96BE\u8BF4\u3002"
+      FirstShow: "\u5F15\u9886\u50F5\u5C38\u7684\u524D\u6D6A\u3002"
+  - ID: 101
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 295599917553282936, guid: cd0b11b690097a34f8516778548994f3, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 4000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u9C7C\u7F38\u50F5\u5C38"
+      MiniInfo: "\u9C7C\u7F38\u50F5\u5C38\u7684\u9C7C\u7F38\u80FD\u51CF\u5C11\u5143\u7D20\u4F24\u5BB3"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+300(I\u7C7B)\r\n\u4F69\u6234\uFF1A\u9C7C\u7F38(I\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--\r\n\u9C7C\u7F38\uFF1A\u53D7\u5230\u7684\u5143\u7D20\u4F24\u5BB3-50%"
+      Description: 
+      FirstShow: "\u9C7C\u7F38\u66F4\u80FD\u627F\u53D7\u5143\u7D20\u4F24\u5BB3\u3002"
+  - ID: 102
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 4768798250546304384, guid: 772f64db6a967264297f9a8e74b04349, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 4000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u68A6\u6E38\u50F5\u5C38"
+      MiniInfo: "\u68A6\u6E38\u50F5\u5C38\u53D7\u5230\u5927\u989D\u4F24\u5BB3\u65F6\u4F1A\u6709\u8D77\u5E8A\u6C14"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u53D7\u5230\u4E0D\u5C0F\u4E8E40\u70B9\u7684\u4F24\u5BB3\u540E\u82CF\u9192\uFF0C\u901F\u5EA6\u63D0\u534730%\uFF0C\u57FA\u7840\u653B\u51FB\u529B+20/s"
+      Description: 
+      FirstShow: "\u4E00\u5B9A\u91CF\u7684\u4F24\u5BB3\u4F1A\u8BA9\u4ED6\u82CF\u9192\u3002"
+  - ID: 103
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 9150931819408754168, guid: e1017b238f5cd8040bed8c3aab8e4c2d, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 02000000
+    Weight: 4000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u7FBD\u7ED2\u670D\u50F5\u5C38"
+      MiniInfo: "\u7FBD\u7ED2\u670D\u50F5\u5C38\u7684\u7FBD\u7ED2\u670D\u80FD\u6709\u6548\u7684\u5E2E\u4ED6\u62B5\u6297\u5BD2\u51B7"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u53D7\u5230\u7684\u51B0\u5143\u7D20\u4F24\u5BB3-50%\uFF0C\u514D\u75AB\u5BD2\u51B7"
+      Description: 
+      FirstShow: "\u7FBD\u7ED2\u670D\u80FD\u6709\u6548\u7684\u62B5\u6297\u5BD2\u51B7\u3002"
+  - ID: 104
+    Cost: 0
+    HP: 300
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 3859071474464916837, guid: de7760c388baadc4eb8dd56f763fa04b, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 01000000
+    Weight: 0
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 1
+    zombieDescribe:
+      Name: "\u8D64\u5B50\u661F"
+      MiniInfo: "\u8D64\u5B50\u661F\u662F\u9010\u68A6\u8005\u50F5\u5C38\u8FFD\u9010\u7684\u76EE\u6807"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A300(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A--"
+      Characteristic: "\u7279\u6027\uFF1A\u8D64\u5B50\u661F\u53EA\u4F1A\u968F\u7740\u9010\u68A6\u8005\u50F5\u5C38\u800C\u51FA\u73B0\u3002"
+      Description: 
+      FirstShow: "\u6211\u53EA\u662F\u4E00\u9897\u661F\u661F\u3002"
+  - ID: 106
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 3472732641473251026, guid: 137670039a522f44d98a4c61935489b1, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 01000000
+    Weight: 2000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6298\u5C04\u76FE\u50F5\u5C38"
+      MiniInfo: "\u6298\u5C04\u76FE\u50F5\u5C38\u7684\u6298\u5C04\u76FE\u80FD\u6709\u6548\u5A01\u80C1\u524D\u65B9\u7684\u690D\u7269\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+370(II\u7C7B)\r\n\u4F69\u6234\uFF1A\u6298\u5C04\u76FE(II\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--\r\n\u6298\u5C04\u76FE\uFF1A\u53D7\u5230\u653B\u51FB\u540E\u635F\u593120\u8010\u4E45\uFF0C\u5411\u524D\u65B9\u53D1\u5C04\u4E00\u9053\u8D2F\u7A7F\u5C4F\u5E55\u7684\u5149\u675F\uFF0C\u5BF9\u6CBF\u9014\u6240\u6709\u690D\u7269\u9020\u621020\u70B9\u5149\u5143\u7D20\u4F24\u5BB3\u3002"
+      Description: 
+      FirstShow: "\u5229\u7528\u4F60\u7684\u5B50\u5F39\u53D1\u8D77\u9AD8\u5A01\u80C1\u7684\u653B\u51FB\u3002"
+  - ID: 107
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 5342759669887759760, guid: e2339058ccbaa3f4ba865b7561bd292d, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 3000
+    Value: 4
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6807\u67AA\u50F5\u5C38"
+      MiniInfo: "\u6807\u67AA\u50F5\u6295\u51FA\u7684\u6807\u67AA\u4F1A\u5BF9\u690D\u7269\u9020\u6210\u5927\u91CF\u4F24\u5BB3\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u6295\u63B7\u524D\u7EA62.5s/\u683C,\u6295\u63B7\u540E\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u5165\u573A5s\u6216\u63A5\u89E6\u5230\u7B2C\u4E00\u4E2A\u690D\u7269\u65F6\u6295\u51FA\u6807\u67AA\uFF0C\u5BF9\u547D\u4E2D\u7684\u690D\u7269\u9020\u6210300\u70B9\u4F24\u5BB3\u3002"
+      Description: "\u6807\u67AA\u50F5\u5C38\u6491\u6746\u8DF3\u6210\u7EE9\u6EE1\u5206\uFF0C\u4F46\u5728\u6BD4\u8D5B\u4E2D\uFF0C\u4ED6\u53EA\u5F97\u4E86\u7B2C\u4E8C\u540D\uFF0C\u5C31\u5728\u4ED6\u4E22\u6746\u5B50\u6CC4\u6124\u65F6\uFF0C\u4ED6\u5F97\u5230\u4E86\u6807\u67AA\u91D1\u724C\uFF0C\u4F46\u6CA1\u7B97\u6210\u7EE9\uFF0C\u56E0\u4E3A\u8FD9\u662F\u6491\u6746\u8DF3\u8D5B\u573A\u3002"
+      FirstShow: "\u6345\u7A7F\u4F60\u7684\u690D\u7269\u3002"
+  - ID: 108
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: b8f754b345980494baafdceb2aa69b06, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 3000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u50F5\u5C38\u8C4C\u8C46"
+      MiniInfo: "\u53D1\u5C04\u50F5\u5C38\u8C4C\u8C46\u5B50\u5F39\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u690D\u7269\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u6BCF1.5\u79D2\u53D1\u5C041\u679A\u8C4C\u8C46\u5B50\u5F39\u3002"
+      Description: "\u201C\u563F\u4F19\u8BA1\uFF0C\u4F60\u770B\u6211\u7684\u5934\u5E05\u4E0D\u201D\uFF0C\u50F5\u5C38\u8C4C\u8C46\u5982\u662F\u8BF4\uFF0C\u201C\u6211\u4ECE\u540E\u9662\u627E\u5230\u7684\u6218\u5229\u54C1\u201D\u3002"
+      FirstShow: "\u53D1\u5C04\u50F5\u5C38\u8C4C\u8C46\u5B50\u5F39\u3002"
+  - ID: 109
+    Cost: 0
+    HP: 1400
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: c00094910f1b2ce4380ef9f9c5e653b2, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 3000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u50F5\u5C38\u575A\u679C"
+      MiniInfo: "\u50F5\u5C38\u575A\u679C\u975E\u5E38\u8010\u6253"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A1400(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u975E\u5E38\u9AD8\u7684\u751F\u547D\u503C\u3002"
+      Description: "\u201C\u2026\u2026\u201D\u50F5\u5C38\u575A\u679C\u8BD5\u56FE\u8BF4\u8BDD\uFF0C\u4F46\u4ED6\u7684\u5634\u5DF2\u7ECF\u585E\u6EE1\u4E86\u575A\u679C\u3002"
+      FirstShow: "\u575A\u679C\u5934\u50F5\u5C38\u3002"
+  - ID: 114
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: 3bbc67b2b10a260489fc1b7072f3f8aa, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 2
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u50F5\u5C38\u98DF\u4EBA\u82B1"
+      MiniInfo: "\u6BCF\u9694\u4E00\u6BB5\u65F6\u95F4\u5403\u6389\u63A5\u89E6\u7684\u690D\u7269"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u5403\u6389\u63A5\u89E6\u7684\u690D\u7269\uFF0C\u670940\u79D2\u51B7\u5374"
+      Description: 
+      FirstShow: "\u5403\u6389\u63A5\u89E6\u7684\u690D\u7269"
+  - ID: 115
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: cccdabb003952c944827a10bba6c854a, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u50F5\u5C38\u571F\u8C46\u5730\u96F7"
+      MiniInfo: "\u4E00\u6BB5\u65F6\u95F4\u540E\u63A5\u89E6\u690D\u7269\u65F6\u7206\u70B8"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u51FA\u573A25\u79D2\u540E\u63A5\u89E6\u690D\u7269\u7206\u70B8\uFF0C\u5BF9\u534A\u5F840.5\u683C\u5185\u7684\u6240\u6709\u690D\u7269\u9020\u6210500\u70B9\u4F24\u5BB3"
+      Description: 
+      FirstShow: "\u4E00\u6BB5\u65F6\u95F4\u540E\u63A5\u89E6\u690D\u7269\u65F6\u7206\u70B8"
+  - ID: 110
+    Cost: 0
+    HP: 500
+    Damage: 100
+    UseCoolTime: 7.5
+    Prefab: {fileID: 3909074380205061189, guid: bc30104c0f3722349ab7c6af54ba2a52, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 2000
+    Value: 3
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u72C2\u6B66\u58EB\u50F5\u5C38"
+      MiniInfo: "\u5931\u53BB\u5934\u76D4\u540E\u72C2\u66B4\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)+270(I\u7C7B)\r\n\u4F69\u6234\uFF1A\u6B66\u58EB\u5934\u76D4\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C\uFF0C\u5931\u53BB\u5934\u76D4\u540E1.8s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u5931\u53BB\u5934\u76D4\u540E\u72C2\u66B4\uFF0C\u57FA\u7840\u653B\u51FB\u529B+50/s\u3002"
+      Description: 
+      FirstShow: "\u5931\u53BB\u5934\u76D4\u540E\u72C2\u66B4\u3002"
+  - ID: 111
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: 56b4bfea2ab6a4c4b86ed6cc1d6f8881, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u4E50\u56E2\u821E\u738B\u50F5\u5C38"
+      MiniInfo: "\u53EC\u5524\u5927\u91CF\u7684\u50F5\u5C38\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C\uFF0C\u51FA\u573A\u6ED1\u6B65\u7EA61.2s/\u683C,\u53EC\u5524\u540E\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u6BCF\u6B21\u821E\u6B65\u7ED3\u675F\u56FA\u5B9A\u53EC\u55244\u53EA\u4F34\u821E\u50F5\u5C38\uFF0C\u6BCF\u67091000\u70B9\u9633\u5149\u5219\u5C061\u53EA\u4F34\u821E\u50F5\u5C38\u8F6C\u5316\u4E3A\u821E\u738B\u50F5\u5C38\uFF1B\u53EC\u5524\u65F6\u4E3A\u6240\u6709\u821E\u738B\u50F5\u5C38\u56DE\u590D\u9633\u5149\u6570/10\u70B9\u751F\u547D\u3002"
+      Description: 
+      FirstShow: "\u53EC\u5524\u5927\u91CF\u7684\u50F5\u5C38\u3002"
+  - ID: 117
+    Cost: 0
+    HP: 100
+    Damage: 10
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8521646847199271530, guid: 270ec4caa4d581246824dfae111c938e, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 2000
+    Value: 1
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u868A\u5B50\u50F5\u5C38"
+      MiniInfo: "\u8BA9\u4EBA\u70E6\u6270\u7684\u50F5\u5C38\uFF1F\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A100(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u79FB\u52A8\u8FC7\u7A0B\u4E2D\u5E26\u670950%\u95EA\u907F\uFF0C\u653B\u51FB\u4E3A\u6BCF0.1s\u9020\u62101\u6B21\u4F24\u5BB3\u5E76\u56DE\u590D\u7B49\u91CF\u751F\u547D\u3002"
+      Description: 
+      FirstShow: "\u868A\u5B50\u6765\u54AF\u3002"
+  - ID: 306
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 1408940090808090640, guid: 446abf93cfb32984cb163773f9f508f0, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 03000000
+    Weight: 3000
+    Value: 2
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6708\u88AD\u6A44\u6984\u7403\u50F5\u5C38"
+      MiniInfo: "\u6708\u8680\u7206\u53D1\u65F6\u4F1A\u7A7F\u8FC7\u690D\u7269\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38-\u6697\u5143\u7D20\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)+1400(I\u7C7B\u9632\u5177)\r\n\u4F69\u6234\uFF1A\u6A44\u6984\u7403\u5934\u76D4(I\u7C7B)\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA62.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u5543\u98DF\u690D\u7269\u65F6\u670950%\u6982\u7387\u5BF9\u53CC\u65B9\u65BD\u52A01\u5C42\u6708\u8680\uFF0C\u6708\u8680\u7206\u53D1\u65F6\u5FFD\u7565\u963B\u6321\u7684\u690D\u7269\u7EE7\u7EED\u524D\u8FDB\u3002\u81EA\u8EAB\u53D7\u5230\u7684\u6697\u5143\u7D20\u4F24\u5BB3\u51CF\u534A\u3002"
+      Description: "\u5728\u9ED1\u591C\u4E2D\uFF0C\u6708\u88AD\u6A44\u6984\u7403\u50F5\u5C38\u8868\u73B0\u51FA120%\u7684\u901F\u5EA6\uFF0C\u4ED6\u8FDB\u653B\u5E72\u6270\u6837\u6837\u5728\u884C\u3002\u867D\u7136\u4ED6\u5B8C\u5168\u4E0D\u77E5\u9053\u4E3A\u4EC0\u4E48"
+      FirstShow: "\u6982\u7387\u65BD\u52A0\u548C\u83B7\u5F97\u6708\u8680\uFF0C\u6708\u8680\u7206\u53D1\u65F6\u5FFD\u7565\u690D\u7269\u3002"
+  - ID: 307
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: c4ab626a1a896f94ea3afcebdc240f69, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 03000000
+    Weight: 1000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u7EC8\u7109\u821E\u738B\u50F5\u5C38"
+      MiniInfo: "\u5229\u7528\u6708\u8680\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38-\u6697\u5143\u7D20\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C\uFF0C\u51FA\u573A\u6ED1\u6B65\u7EA61.2s/\u683C,\u53EC\u5524\u540E\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u51FA\u573A\u65F6\u83B7\u5F978\u5C42\u6708\u8680\u5E76\u4F7F\u672C\u6B21\u7206\u53D1\u4E0A\u9650\u8BBE\u4E3A72\uFF0C\u6BCF\u6B21\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u65F6\u989D\u5916\u6D88\u8017\u6708\u8680\u53EC\u5524\u4F34\u821E\u50F5\u5C38\uFF0C\u6BCF\u53EA\u6D88\u80178\u5C42\u6708\u8680\uFF0C\u53EC\u5524\u5B8C\u6BD5\u540E\u6BCF\u53EA\u4F34\u821E\u50F5\u5C38\u4F7F\u81EA\u8EAB\u83B7\u5F971\u5C42\u6708\u8680\u5E76\u4F7F\u672C\u6B21\u7206\u53D1\u4E0A\u9650+2\u3002"
+      Description: 
+      FirstShow: "\u5229\u7528\u6708\u8680\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u3002"
+  - ID: 407
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: 7db2b1c6fd0e9884985695faf6dd4aa9, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 04000000
+    Weight: 1000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6B8B\u54CD\u821E\u738B\u50F5\u5C38"
+      MiniInfo: "\u6B8B\u54CD\u821E\u738B\u50F5\u5C38\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u7684\u8EAB\u5F71\u6EDE\u7559\u5728\u8349\u5730\u4E0A\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38-\u7075\u5143\u7D20\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C\uFF0C\u51FA\u573A\u6ED1\u6B65\u7EA61.2s/\u683C,\u53EC\u5524\u540E\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u9996\u6B21\u53EC\u5524\u4F34\u821E\u50F5\u5C38\u540E\u5728\u539F\u5730\u7559\u4E0B\u4E00\u4E2A\u821E\u738B\u6B8B\u5F71\uFF0C\u821E\u738B\u6B8B\u5F71\u6BCF60\u79D2\u53EC\u55241\u53EA\u821E\u738B\u50F5\u5C38\u3002"
+      Description: 
+      FirstShow: "\u53EC\u5524\u53EC\u5524\u821E\u738B\u50F5\u5C38\u7684\u6B8B\u5F71\u3002"
+  - ID: 408
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 2926023405106902706, guid: 9b337ffb76cc2a14199c436eea758c35, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 04000000
+    Weight: 0
+    Value: 0
+    MinFlag: 0
+    IsCreateZombie: 1
+    zombieDescribe:
+      Name: "\u6B8B\u54CD\u4F34\u821E\u50F5\u5C38"
+      MiniInfo: "\u4E3A\u6B8B\u54CD\u821E\u738B\u50F5\u5C38\u4F34\u594F\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38-\u7075\u5143\u7D20\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53)\r\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA65.5s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u653B\u51FB\u5BF9\u534A\u5F841\u683C\u5185\u7684\u6240\u6709\u690D\u7269\u9020\u6210\u7075\u5143\u7D20\u4F24\u5BB3\u3002"
+      Description: 
+      FirstShow: "\u4E3A\u6B8B\u54CD\u821E\u738B\u50F5\u5C38\u4F34\u594F\u3002"
+  - ID: 112
+    Cost: 0
+    HP: 270
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 7309641761475872959, guid: fef0e27d31a01f04aad70f685b88b53e, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 5
+    MinFlag: 5
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u603B\u52A8\u5458\u50F5\u5C38"
+      MiniInfo: "\u603B\u52A8\u5458\u50F5\u5C38\u4F1A\u53EC\u5524\u50F5\u5C38\uFF0C\u5728\u5927\u6CE2\u6B21\u4E2D\u53EC\u5524\u66F4\u591A\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53\r)+370(II\u7C7B)\n\u4F69\u6234\uFF1A\u603B\u52A8\u5458\u65D7\u5E1C\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7\u79D2\u4E00\u683C"
+      Characteristic: "\u7279\u6027\uFF1A--\n\u603B\u52A8\u5458\u65D7\u5E1C\uFF1A\u51FA\u573A\u65F6\u53EC\u55244\u540D\u968F\u673A\u50F5\u5C38\uFF0C\u82E5\u5728\u5927\u6CE2\u6B21\u4E2D\u5219\u6539\u4E3A\u53EC\u55246\u540D\u968F\u673A\u68A6\u5883\u50F5\u5C38\u3002"
+      Description: 
+      FirstShow: "\u53EC\u5524\u5927\u91CF\u50F5\u5C38\u3002"
+  - ID: 113
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: 265b5fc870f75484bbd675def5f7f6d7, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 01000000
+    Weight: 1000
+    Value: 2
+    MinFlag: 3
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u541F\u8BD7\u6E38\u4EBA\u50F5\u5C38"
+      MiniInfo: "\u6BCF\u9694\u4E00\u6BB5\u65F6\u95F4\u505C\u5728\u539F\u5730\u4E3A\u50F5\u5C38\u63D0\u4F9B\u52A0\u6210"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\r-\u5149\u5143\u7D20\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7\u79D2\u4E00\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u6BCF10\u79D2\u505C\u5728\u539F\u5730\uFF0C\u4E3A\u534A\u5F841.5\u8303\u56F4\u5185\u7684\u50F5\u5C38\u63D0\u4F9B\u52A0\u6210\uFF1A\u8840\u91CF\u57282/3\u4EE5\u4E0A\u9020\u6210\u7684\u4F24\u5BB3+10%\uFF0C\u8840\u91CF\u57282/3\u52301/3\u4E4B\u95F4\u53D7\u5230\u7684\u4F24\u5BB3-10%\uFF0C\u8840\u91CF\u57281/3\u4EE5\u4E0B\u56DE\u590D100\u70B9\u4F53\u529B\u3002"
+      Description: 
+      FirstShow: "\u5F39\u5531\u65F6\u4E3A\u50F5\u5C38\u63D0\u4F9B\u52A0\u6210"
+  - ID: 1001
+    Cost: 0
+    HP: 500
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 5439482239337007647, guid: bb1a8502c92802a4d9857588ec2825f0, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 500
+    Value: 10
+    MinFlag: 10
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u9010\u68A6\u8005\u50F5\u5C38"
+      MiniInfo: "\u9010\u68A6\u8005\u50F5\u5C38\u773C\u4E2D\u53EA\u6709\u8D64\u5B50\u661F\uFF0C\u4E0D\u8FBE\u5230\u76EE\u6807\u4E0D\u56DE\u5934\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u7CBE\u82F1\u50F5\u5C38-\u5149\u5143\u7D20\r\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u72C2\u66B4\u524D\u7EA62.5s/\u683C,\u8F6C\u8EAB\u540E\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u51FA\u573A\u65F6\u5728\u672C\u884C\u5DE6\u65702~4\u5217\u964D\u843D\u4E00\u9897\u8D64\u5B50\u661F\uFF0C\u9010\u68A6\u8005\u50F5\u5C38\u63A5\u89E6\u5230\u8D64\u5B50\u661F\u4E4B\u524D\u5C06\u8DF3\u8FC7\u4E00\u5207\u690D\u7269\uFF0C\u63A5\u89E6\u8D64\u5B50\u661F\u540E\u6389\u5934\uFF1B\u82E5\u5728\u63A5\u89E6\u8D64\u5B50\u661F\u4E4B\u524D\u8D64\u5B50\u661F\u88AB\u6467\u6BC1\u5219\u8FDB\u5165\u72C2\u66B4\uFF0C\u901F\u5EA6\u63D0\u534720%\u3002"
+      Description: 
+      FirstShow: "\u4E0D\u89C1\u661F\u661F\u4E0D\u56DE\u5934\u3002"
+  - ID: 116
+    Cost: 0
+    HP: 500
+    Damage: 75
+    UseCoolTime: 7.5
+    Prefab: {fileID: 3909074380205061189, guid: ed130e695a45fe04fa70b8c8fcac8f84, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 00000000
+    Weight: 1000
+    Value: 3
+    MinFlag: 2
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6D77\u76D7\u50F5\u5C38"
+      MiniInfo: "\u6D77\u76D7\u50F5\u5C38\u6709\u8F83\u9AD8\u7684\u653B\u51FB\u529B\uFF0C\u4F1A\u4EA4\u66FF\u4F7F\u7528\u8FD1\u8FDC\u7A0B\u653B\u51FB"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\n\u751F\u547D\u503C\uFF1A500(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A75/\u6B21(\u5200\u780D)\u3001100(\u67AA\u51FB)\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u6BCF5\u79D2\u621610\u6B21\u8FDB\u7A0B\u653B\u51FB\u540E\u4F7F\u7528\u624B\u67AA\u653B\u51FB"
+      Description: 
+      FirstShow: "\u5B9A\u65F6\u4F7F\u7528\u4F24\u5BB3\u8F83\u9AD8\u7684\u8FDC\u7A0B\u653B\u51FB"
+  - ID: 118
+    Cost: 0
+    HP: 270
+    Damage: 75
+    UseCoolTime: 7.5
+    Prefab: {fileID: 8180385844455014062, guid: b11d15704263044498599b1924e29776, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 03000000
+    Weight: 4000
+    Value: 1
+    MinFlag: 3
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u6DF7\u6C8C\u6CD5\u5E08\u5B66\u5F92\u50F5\u5C38"
+      MiniInfo: "\u51FA\u573A\u548C\u6B7B\u4EA1\u65F6\u4EA4\u6362\u573A\u4E0A\u968F\u673A2\u682A\u690D\u7269\u7684\u4F4D\u7F6E"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1A\u68A6\u5883\u50F5\u5C38\n\u751F\u547D\u503C\uFF1A270(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A100/s\r\n\u901F\u5EA6\uFF1A\u7EA64~7s/\u683C"
+      Characteristic: "\u7279\u6027\uFF1A\u51FA\u573A\u65F6\u4EA4\u63622\u682A\u690D\u7269\u7684\u4F4D\u7F6E\n\u4EA1\u8BED\uFF1A\u4EA4\u63622\u682A\u690D\u7269\u7684\u4F4D\u7F6E"
+      Description: 
+      FirstShow: "\u4EA4\u63622\u682A\u690D\u7269\u7684\u4F4D\u7F6E"
+  - ID: 10001
+    Cost: 0
+    HP: 36000
+    Damage: 50
+    UseCoolTime: 7.5
+    Prefab: {fileID: 6257588106856491682, guid: 23b9dfb2b02a7f64c899bf0aa2203ba8, type: 3}
+    CardPrefab: {fileID: 0}
+    DreamElement: 0300000004000000
+    Weight: 0
+    Value: 999
+    MinFlag: 0
+    IsCreateZombie: 0
+    zombieDescribe:
+      Name: "\u7EC8\u7109\u6B8B\u54CD\u821E\u738B\u50F5\u5C38"
+      MiniInfo: "\u4F34\u968F\u7740\u9ED1\u6697\u548C\u6050\u60E7\uFF0C\u4F34\u968F\u7740\u65E0\u6570\u50F5\u5C38\u7684\u6012\u543C\u3002\u4ED6\u662F\u50F5\u5C38\u754C\u7684\u660E\u661F\uFF0C\u662F\u4E07\u4EBA\u8FFD\u968F\u7684\u738B\u4E0B\u3002"
+      KEYWORD: "\u68A6\u5883\u7B49\u7EA7\uFF1ABoss\u50F5\u5C38-\u6697&\u7075\u5143\u7D20\n\u751F\u547D\u503C\uFF1A36000(\u672C\u4F53\r)\n\u4F69\u6234\uFF1A--\r\n\u5543\u98DF\u4F24\u5BB3\uFF1A--\n\u901F\u5EA6\uFF1A--"
+      Characteristic: "\u7279\u6027\uFF1A--"
+      Description: 
+      FirstShow: "\u4ED6\u7684\u51FA\u73B0\u5E26\u6765\u50F5\u5C38\u548C\u9ED1\u6697\u3002"
